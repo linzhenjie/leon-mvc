@@ -4,11 +4,11 @@
  * @Desc: Session 管理类
  * @Date:   2015-12-28 14:39:14
  * @Last Modified by:   linzj
- * @Last Modified time: 2018-06-25 15:23:26
+ * @Last Modified time: 2018-12-07 11:27:03
  */
-namespace Esunphp\Mvc;
+namespace Leonphp\Mvc;
 
-use Esunphp\Pattern\Singleton;
+use Leonphp\Pattern\Singleton;
 
 class Session
 {

@@ -4,10 +4,10 @@
  * @Desc: 路由类
  * @Date:   2015-12-28 14:39:14
  * @Last Modified by:   linzj
- * @Last Modified time: 2018-06-25 14:00:52
+ * @Last Modified time: 2018-12-07 11:27:03
  */
-namespace Esunphp\Mvc;
-use Esunphp\Pattern\Singleton;
+namespace Leonphp\Mvc;
+use Leonphp\Pattern\Singleton;
 
 class Router
 {

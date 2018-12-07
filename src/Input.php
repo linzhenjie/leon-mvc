@@ -1,6 +1,6 @@
 <?php
-namespace Esunphp\Mvc;
-use Esunphp\Pattern\Singleton;
+namespace Leonphp\Mvc;
+use Leonphp\Pattern\Singleton;
 
 class Input
 {

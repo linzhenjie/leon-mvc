@@ -4,9 +4,9 @@
  * @Desc: 路由类
  * @Date:   2015-12-28 14:39:14
  * @Last Modified by:   linzj
- * @Last Modified time: 2018-06-26 15:51:54
+ * @Last Modified time: 2018-12-07 11:27:00
  */
-namespace Esunphp\Mvc;
+namespace Leonphp\Mvc;
 
 class Controller
 {
@@ -28,7 +28,7 @@ class Controller
             $ctrl_ins = new \ReflectionClass($class);
             //检测类是否是该类子类
             if(!$ctrl_ins->isSubclassOf(__CLASS__)){
-                throw new \Exception($class.' Don\'t extends Esunphp\Mvc\Controller',500);
+                throw new \Exception($class.' Don\'t extends Leonphp\Mvc\Controller',500);
             }
             self::$_instance[$key] = new $class();
             self::$_instance[$key]->controller = $key;

@@ -4,12 +4,12 @@
  * @Author: linzj
  * @Date:   2018-06-20 09:54:50
  * @Last Modified by:   linzj
- * @Last Modified time: 2018-06-27 14:53:38
+ * @Last Modified time: 2018-12-07 11:26:58
  */
-namespace Esunphp\Mvc;
+namespace Leonphp\Mvc;
 
 use Exception;
-use Esunphp\Pattern\Singleton;
+use Leonphp\Pattern\Singleton;
 
 class Base
 {
@@ -23,9 +23,9 @@ class Base
     private function __construct()
     {
         //注册异常类
-        set_exception_handler(array('Esunphp\Mvc\Exception', 'exceptionHandler'));
-        set_error_handler(array('Esunphp\Mvc\Exception','errorHandler'));
-        register_shutdown_function(array('Esunphp\Mvc\Exception','fatalErrorHandler'));
+        set_exception_handler(array('Leonphp\Mvc\Exception', 'exceptionHandler'));
+        set_error_handler(array('Leonphp\Mvc\Exception','errorHandler'));
+        register_shutdown_function(array('Leonphp\Mvc\Exception','fatalErrorHandler'));
     }
 
     /**

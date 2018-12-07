@@ -1,7 +1,7 @@
 <?php
-namespace Esunphp\Mvc;
+namespace Leonphp\Mvc;
 
-use Esunphp\Pattern\Multiton;
+use Leonphp\Pattern\Multiton;
 
 class View
 {

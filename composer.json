@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Esunphp\\Mvc\\": "./src/"
+            "Leonphp\\Mvc\\": "./src/"
         }
     }
 }

@@ -4,7 +4,7 @@
 
 1、使用composer加载框架
 
-    composer require esunphp/mvc
+    composer require leonphp/mvc
 
 2、创建入口文件
 
@@ -14,7 +14,7 @@
     include ROOT_PATH.'/vendor/autoload.php';
 
     //创建引导类
-    class Bootstrap extends Esunphp\Mvc\Bootstrap
+    class Bootstrap extends Leonphp\Mvc\Bootstrap
     {
         private $_config = [
             'DEBUG'           => TRUE, //调试模式
@@ -31,7 +31,7 @@
     }
     //异常捕获
     try{
-        Esunphp\Mvc\Base::start(new Bootstrap());
+        Leonphp\Mvc\Base::start(new Bootstrap());
     }catch(Exception $e){
         $code = $e->getCode();
         switch ($code) {
@@ -52,7 +52,7 @@
 创建控制器文件 controller/Home.php
 
     <?php
-    class Home extends Esunphp\Mvc\Controller
+    class Home extends Leonphp\Mvc\Controller
     {
         public function main()
         {
